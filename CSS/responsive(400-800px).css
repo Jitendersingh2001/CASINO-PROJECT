@@ -1,0 +1,165 @@
+@media (min-width:400px) and  (max-width:800px)
+{
+    *{
+        --hsize:14px;
+        --bsize:14px;
+    }
+    /* Header start*/
+    .nav-container a{
+        padding: 10px;
+    }
+    .header-logo{
+        padding: 15px;
+    }
+     /* Header end*/
+     /*banner start*/
+     .banner-container{
+       height: 400px;
+       width: 100%;   
+     background-repeat: no-repeat;
+    }
+    .banner-text{
+        font-size: 14px;
+    }
+    .banner-text a{
+        padding: 10px 30px;
+    
+    }
+     /*banner end*/
+     /*about start*/
+     .about-items{
+      
+        padding: 40px;
+      grid-template-columns: 1fr;
+      row-gap: 45px;
+    
+     }
+     .item2 img{
+        height: auto;
+     }
+     .item1-header{
+        font-size: 10px;
+     }
+     .item1 a{
+        margin-left: 10px;
+        padding: 10px 30px;
+    
+    }
+    /*about end*/
+    
+     /*steps start*/
+     .play-steps{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
+     }
+     .step1img,.step2img,.step3img,.step4img{
+        padding: 40px;
+    }
+    .play-btn a{
+        padding : 10px 30px;
+    }
+    /*steps end*/
+      /*Plan start*/
+      .plan1-content h1,.plan2-content h1,.plan3-content h1{
+        font-size: 13px;
+    }
+    .plan-btn a{
+        padding : 5px 20px;
+       
+    }.plan-btn{
+        margin-top: 28px;
+    }
+    .plan1-content,.plan2-content,.plan3-content{
+       padding: 34px;
+    }
+    .plan-menu{
+        gap: 5px;
+        
+    }
+    .plan1-content{
+        padding: 34px 46px;
+    }
+    /*Plan end*/
+    /*Form start*/
+    .form-head h1{
+       font-size:25px ;
+    }
+    .form-main{
+        flex-direction: column;
+        height: auto;
+        gap: 8px;
+    }
+    form input, select ,textarea{
+        margin-bottom: 10px;
+        width: 100%;
+        height: 40px;
+    }
+    form textarea{
+        height: 80px;
+    }
+    form a{
+        padding : 10px 25px;
+    }
+   
+    .form,.form-map{
+        padding: 20px;
+        
+    }
+    /* Form end*/
+   /*Footer start*/
+   
+   .footer-layout{
+    padding-top: 52%;
+    width: 100%;
+    margin: 0;    
+    }
+    .footer-email{
+        padding-top: 100px; 
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-email [type="email"]
+    {
+        
+        width: 100%;
+        height: 30px;
+        background-color: transparent;
+    }
+    .footer-email h1{
+        padding-top: 8px;
+        font-size: 15px;
+    }
+    .footer-contact{
+        padding: 20px;
+        flex-direction: column; 
+        align-items: center;
+
+    }
+    .contact{
+        gap: 5px;
+    }
+    .contact h2{
+        font-size: 10px;
+    }
+    .contact img{
+        height: 16px;
+        width: auto;
+    }
+    .footer-copy{
+        text-align: center;
+       font-size: 14px;
+       padding: 10px;
+    }
+    .footer-copy hr{
+        margin: 10px;
+    }
+    .footer-social img
+    {
+        height: 20px;
+        width: auto;
+    }
+   /*Footer end*/
+}
+
+
+   
